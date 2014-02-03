@@ -1,0 +1,6 @@
+*.*
+!.gitignore
+!*.md
+!*.js
+!*.css
+!*.hbs
