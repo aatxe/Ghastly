@@ -29,6 +29,11 @@
     background: #3498db;
 }
 
+#whatdoido .square {
+    color: #3498db;
+    height: 24em;
+}
+
 #cryptocoins {
     background: #e67e22;
 }

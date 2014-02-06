@@ -82,7 +82,12 @@
 					<div class="square-header">
 						<img src="{{asset "img/decent.png"}}" height="120px" />
 					</div>
-					<p>Decentralization is powerful and reliable. In politics, it allows government to best serve the people by minimizing bureaucracy. In software, it allows users and developers alike more freedom by preventing the monopolization of data. Decentralization empowers the individual.</p>
+					<p>Decentralization is powerful and reliable. In politics, 
+						it allows government to best serve the people by 
+						minimizing bureaucracy. In software, it allows users 
+						and developers alike more freedom by preventing the 
+						monopolization of data. Decentralization uniquely 
+						empowers the individual.</p>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -91,7 +96,7 @@
 						<img src="{{asset "img/simple.png"}}" height="120px" />
 					</div>
 					<p>Simplicity is elegance. The best software, the best 
-						design, and the best experience are all charactericized 
+						design, and the best experience are all characterized 
 						by simplicity. I allow minimalism to carry my design 
 						methodology throughout the software I make, and I hope 
 						that it always reflects that.</p>
@@ -106,31 +111,36 @@
 		<div class="row">
 			<div class="col-sm-4">
 				<div class="square">
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
+					<div class="square-header">
+						<img src="{{asset "img/site.png"}}" height="120px" />
+					</div>
+					<p>I make minimalist websites. I favor flat designs over 
+						gradients and other frills. I use JavaScript and Ruby 
+						for backends, and HTML5 and CSS3 for frontends. I also 
+						used to do PHP.</p>
 				</div>
 			</div>
 			<div class="col-sm-4">
 				<div class="square">
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
+					<div class="square-header">
+						<img src="{{asset "img/link.png"}}" height="120px" />
+					</div>
+					<p>I make a variety of custom networked applications. I 
+						work on designing and using simple, scalable network 
+						protocols and writing reliable software upon said 
+						protocols. I mainly put this energy towards games and 
+						libraries for networking protocols.</p>
 				</div>
 			</div>
 			<div class="col-sm-4">
 				<div class="square">
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
-					The quick brown fox jumped over the lazy dog.
+					<div class="square-header">
+						<img src="{{asset "img/maple.png"}}" height="120px" />
+					</div>
+					<p>I make server emulators for multiplayer games. I work on 
+						clean-room reverse engineering network protocols, and 
+						building elegant and performant emulators atop them. My 
+						target game of choice is MapleStory.</p>
 				</div>
 			</div>
 		</div>
@@ -179,8 +189,8 @@
             <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>{{tags}}</span>
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
         </header>
-        <section class="post-content">
-        	{{content}}
+        <section class="post-excerpt">
+        	{{excerpt}}
         </section>
     </article>
     {{/foreach}}
