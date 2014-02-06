@@ -1,0 +1,95 @@
+#head, #whoami, #whatdoido, #whatdoithink, #moreme {
+    color: white;
+}
+
+#head {
+    height: 800px;
+    background: #2c3e50;
+}
+
+#whoami {
+    background: #e74c3c;
+}
+
+#whoami .square {
+    height: 23em;
+}
+
+#whatdoido {
+    background: #3498db;
+}
+
+#whatdoithink {
+    background: #2ecc71;
+}
+
+#cryptocoins {
+    background: #e67e22;
+}
+
+#cryptocoins .square {
+    color: #e67e22;
+    height: 354px;
+}
+
+#moreme {
+    background: #9b59b6;
+}
+
+.square {
+    position: relative;
+    margin: 1em 0;
+    background: white;
+    color: #2c3e50;
+    padding: 1em;
+}
+
+.square-header {
+    padding: 1em;
+}
+
+.square-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.square p {
+    font-size: 18px;
+}
+
+.site-footer, .section-head, .square-footer, .square-header {
+    text-align: center;
+}
+
+.section-head {
+    margin-top: -4%;
+}
+
+#moreme .section-head {
+    margin-top: 0;
+}
+
+#moreme a, #moreme a:visited {
+    color: white;
+}
+
+#moreme a:hover {
+    color: #ecf0f1;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.blog-info {
+    margin-left: 1em;
+}
+
+.blog-title, .blog-description {
+    margin-top: -0.3em;
+}
+
+.blog-description {
+    margin-left: 3px;
+}
