@@ -12,15 +12,19 @@
 }
 
 #whoami .square {
-    height: 23em;
-}
-
-#whatdoido {
-    background: #3498db;
+    height: 22em;
 }
 
 #whatdoithink {
     background: #2ecc71;
+}
+
+#whatdoithink .square {
+    height: 25em;
+}
+
+#whatdoido {
+    background: #3498db;
 }
 
 #cryptocoins {
