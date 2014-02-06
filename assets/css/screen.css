@@ -12,6 +12,7 @@
 }
 
 #whoami .square {
+    color: #e74c3c;
     height: 22em;
 }
 
@@ -20,6 +21,7 @@
 }
 
 #whatdoithink .square {
+    color: #2ecc71;
     height: 25em;
 }
 
