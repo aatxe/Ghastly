@@ -182,5 +182,5 @@
 .way-up {
     transition: top 1s !important;
     position: absolute !important;
-    top: -600% !important;
+    top: -2000% !important;
 }
