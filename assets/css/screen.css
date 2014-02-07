@@ -7,6 +7,12 @@
     background: #2c3e50;
 }
 
+.way-up {
+    transition: top 1s !important;
+    position: absolute !important;
+    top: -2000% !important;
+}
+
 /*
  * Splash Page Formatting
  */
@@ -95,7 +101,7 @@
     margin-top: 0;
 }
 
-#moreme a, #moreme a:visited, #backtome a, #backtome a:visited {
+#moreme a, #moreme a:visited, #backtome a, #backtome a:visited, .blog-title a {
     color: white;
 }
 
@@ -179,8 +185,28 @@
     color: white;
 }
 
-.way-up {
-    transition: top 1s !important;
-    position: absolute !important;
-    top: -2000% !important;
+.post-content {
+    padding: 0 5%;
+}
+
+.post-content img {
+    width: 100%;
+}
+
+.post-content blockquote {
+    margin-left: 2em;
+}
+
+.post-content a, .post-title a {
+    color: #c7254e;
+}
+
+.post-content a {
+    background-color: #f9f2f4;
+    white-space: nowrap;
+    border-radius: 4px;
+    padding: 0.1em;
+}
+
+.post-content p {
 }
