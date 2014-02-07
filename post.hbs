@@ -1,6 +1,6 @@
 {{!< default}}
 
-<header id="head" class="jumbotron" {{#if @blog.cover}}style="background-image:url({{@blog.cover}});background-position:center;background-size:cover"{{/if}}>
+<header id="head" class="jumbotron container-fluid" {{#if @blog.cover}}style="background-image:url({{@blog.cover}});background-position:center;background-size:cover"{{/if}}>
 	<div class="blog-info">
     	<h1 class="blog-title">
 			<a href="{{@blog.url}}/#!blog">{{@blog.title}}</a>
@@ -11,7 +11,7 @@
 
 <main class="content" role="main">
 	{{#post}}
-    <article id="post" class="{{post_class}} jumbotron">
+    <article id="post" class="{{post_class}} jumbotron container-fluid">
 		<script>
 			var cs = ["#e74c3c", "#2ecc71", "#3498db", "#e67e22", "#9b59b6"];
 			var c = cs[Math.floor(Math.random() * cs.length)];
