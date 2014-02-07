@@ -1,4 +1,4 @@
-#head, #whoami, #whatdoido, #whatdoithink, #moreme, .post {
+#head, #whoami, #whatdoido, #whatdoithink, #moreme, #backtome, .post {
     color: white;
 }
 
@@ -57,6 +57,10 @@
     background: #9b59b6;
 }
 
+#backtome {
+    background: #34495e;
+}
+
 .square {
     position: relative;
     margin: 1em 0;
@@ -87,15 +91,15 @@
     margin-top: -4%;
 }
 
-#moreme .section-head {
+#moreme .section-head, #backtome .section-head {
     margin-top: 0;
 }
 
-#moreme a, #moreme a:visited {
+#moreme a, #moreme a:visited, #backtome a, #backtome a:visited {
     color: white;
 }
 
-#moreme a:hover {
+#moreme a:hover, #backtome a:hover {
     color: #ecf0f1;
 }
 
@@ -165,7 +169,9 @@
 
 .read-more {
     text-align: center;
-    margin-top: 1em;
+    width: 8em;
+    margin: 1em auto !important;
+    margin-bottom: 0 !important;
     font-size: 24px;
 }
 
@@ -174,7 +180,7 @@
 }
 
 .way-up {
-    transition: top 2s !important;
+    transition: top 1s !important;
     position: absolute !important;
-    top: -1000% !important;
+    top: -600% !important;
 }
