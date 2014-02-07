@@ -1,10 +1,20 @@
-#head, #whoami, #whatdoido, #whatdoithink, #moreme {
+#head, #whoami, #whatdoido, #whatdoithink, #moreme, .post {
     color: white;
 }
 
 #head {
     height: 800px;
     background: #2c3e50;
+}
+
+/*
+ * Splash Page Formatting
+ */
+
+#splash, #main {
+    transition: top 2s;
+    position: absolute;
+    top: 800px;
 }
 
 #whoami {
@@ -103,4 +113,68 @@
 
 .blog-description {
     margin-left: 3px;
+}
+
+/* 
+ * Post Formatting
+ */
+
+.post:nth-child(5n+1) {
+    background: #e74c3c;
+}
+
+.post:nth-child(5n+2) {
+    background: #2ecc71;
+}
+
+.post:nth-child(5n+3) {
+    background: #3498db;
+}
+
+.post:nth-child(5n+4) {
+    background: #e67e22;
+}
+
+.post:nth-child(5n+5) {
+    background: #9b59b6;
+}
+
+.meta-container {
+    padding-top: 0.5em;
+}
+
+.meta {
+    padding: 0.5em;
+    background: #34495e;
+    margin-right: 0.1em;
+}
+
+.meta:last-child {
+    margin-right: 0;
+}
+
+.post-title {
+    margin: 0.5em 0;
+}
+
+.post-excerpt {
+    font-size: 24px;
+    padding: 1em;
+    padding-bottom: 0;
+}
+
+.read-more {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 24px;
+}
+
+.read-more a {
+    color: white;
+}
+
+.way-up {
+    transition: top 2s !important;
+    position: absolute !important;
+    top: -1000% !important;
 }

@@ -152,7 +152,7 @@
 					<div class="square-header">
 						<h2>BTC</h2>
 						<img src="{{asset "img/btcqr.png"}}" height="200px" />
-						<h5>18uJyuZR3LC65hLpC8GsbwWctpQ4JSzwbx</h5>
+						<h5 class="addr">18uJyuZR3LC65hLpC8GsbwWctpQ4JSzwbx</h5>
 					</div>
 				</div>
 			</div>
@@ -161,7 +161,12 @@
 					<div class="square-header">
 						<img src="{{asset "img/money.png"}}" height="120px" />
 					</div>
-					<p>I'm a big fan of cryptocurrencies. I fully support both bitcoin and dogecoin, and I'd like to see them grow into something much larger. As such, if you like any of the things I've worked on or just want to be a really nice person, I accept tips to either of the wallets included here. Tips are much appreciated.</p>
+					<p>I'm a big fan of cryptocurrencies. I fully support both 
+						bitcoin and dogecoin, and I'd like to see them grow 
+						into something much larger. As such, if you like any of 
+						the things I've worked on or just want to be a really 
+						nice person, I accept tips to either of the wallets 
+						included here. Tips are much appreciated.</p>
 				</div>
 			</div>
 			<div class="col-sm-4">
@@ -169,7 +174,7 @@
 					<div class="square-header">
 						<h2>DOGE</h2>
 						<img src="{{asset "img/dogeqr.png"}}" height="200px" />
-						<h5>DEFhpokMCYZPQHBQ2bLht6hrFq4yvTriUk</h5>
+						<h5 class="addr">DEFhpokMCYZPQHBQ2bLht6hrFq4yvTriUk</h5>
 					</div>
 				</div>
 			</div>
@@ -182,16 +187,25 @@
 	</section>
 </section>
 
-<main class="content hidden" role="main">
+<main id="main" class="content way-up" role="main">
     {{#foreach posts}}
     <article class="{{post_class}} jumbotron">
         <header class="post-header">
-            <span class="post-meta"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>{{tags}}</span>
-            <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
+            <div class="post-meta">
+				<time class="meta pull-left" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
+				<span class="meta-container pull-right">
+					{{#foreach tags}}
+					<span class="meta">{{name}}</span>
+					{{/foreach}}
+				</span>
+			</div>
+			<div class="clearfix"></div>
+            <h2 class="post-title square"><a href="{{url}}">{{{title}}}</a></h2>
         </header>
         <section class="post-excerpt">
-        	{{excerpt}}
+        	{{excerpt}}&hellip;
         </section>
+		<div class="read-more"><a href="{{url}}">Read more.</a></div>
     </article>
     {{/foreach}}
 </main>
