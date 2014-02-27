@@ -95,6 +95,8 @@
 
 @media (min-width: 768px) {
     .square-row {
+        display: -webkit-flex;
+        display: -moz-flex;
         display: flex;
         flex-flow: row nowrap;
         -webkit-flex-flow: row nowrap;
@@ -105,6 +107,8 @@
         flex: 1;
         -webkit-flex: 1;
         -moz-flex: 1;
+        display: -webkit-flex;
+        display: -moz-flex;
         display: flex;
         flex-flow: column nowrap;
         -webkit-flex-flow: column nowrap;
