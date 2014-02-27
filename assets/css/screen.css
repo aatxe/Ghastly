@@ -94,7 +94,7 @@
 }
 
 #moreme .section-head, #backtome .section-head {
-    margin-top: 0;
+    margin-top: -0.25em;
 }
 
 #moreme a, #moreme a:visited, #backtome a, #backtome a:visited, .blog-title a {
