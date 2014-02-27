@@ -107,6 +107,7 @@
     
     .square {
         flex: 1;
+        overflow: hidden;
     }
     
     .section-head {
@@ -130,6 +131,13 @@
     height: auto;
     width: 240px;
     max-width: 100%;
+}
+
+
+@media (max-width: 987px) and (min-width: 768px) {
+    .addr {
+        font-size: 8px;
+    }
 }
 
 .addr {
