@@ -16,9 +16,9 @@
 		<div class="row section-head">
 			<h1>Who am I?</h1>
 		</div>
-		<div class="row">
+		<div class="row square-row">
 			<div class="col-sm-4">
-				<div class="square who">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/educate.png"}}" height="120px" />
 					</div>
@@ -29,7 +29,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square who">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/github.png"}}" height="120px" />
 					</div>
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square who">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/earth.png"}}" height="120px" />
 					</div>
@@ -68,9 +68,9 @@
 		<div class="row section-head">
 			<h1>What do I think?</h1>
 		</div>
-		<div class="row">
+		<div class="row square-row">
 			<div class="col-sm-4">
-				<div class="square think">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/leaf.png"}}" height="120px" />
 					</div>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square think">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/decent.png"}}" height="120px" />
 					</div>
@@ -95,7 +95,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square think">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/simple.png"}}" height="120px" />
 					</div>
@@ -112,9 +112,9 @@
 		<div class="row section-head">
 			<h1>What do I make?</h1>
 		</div>
-		<div class="row">
+		<div class="row square-row">
 			<div class="col-sm-4">
-				<div class="square do">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/site.png"}}" height="120px" />
 					</div>
@@ -125,7 +125,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square do">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/link.png"}}" height="120px" />
 					</div>
@@ -137,7 +137,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square do">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/maple.png"}}" height="120px" />
 					</div>
@@ -150,9 +150,9 @@
 		</div>
 	</section>
 	<section id="cryptocoins" class="jumbotron container-fluid">
-		<div class="row">
+		<div class="row square-row">
 			<div class="col-sm-4">
-				<div class="square coin">
+				<div class="square">
 					<div class="square-header">
 						<h2>BTC</h2>
 						<img src="{{asset "img/btcqr.png"}}" class="qr" />
@@ -161,7 +161,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square coin">
+				<div class="square">
 					<div class="square-header">
 						<img src="{{asset "img/money.png"}}" height="120px" />
 					</div>
@@ -174,7 +174,7 @@
 				</div>
 			</div>
 			<div class="col-sm-4">
-				<div class="square coin">
+				<div class="square">
 					<div class="square-header">
 						<h2>DOGE</h2>
 						<img src="{{asset "img/dogeqr.png"}}" class="qr" />
@@ -224,16 +224,6 @@
 </main>
 
 <script type="text/javascript">
-	function squareHeights() {
-		$(".who").resetHeights();
-		$(".who").matchHeights();
-		$(".think").resetHeights();
-		$(".think").matchHeights();
-		$(".do").resetHeights();
-		$(".do").matchHeights();
-		$(".coin").resetHeights();
-		$(".coin").matchHeights();
-	}
 	function splash() {
 		$("#splash").removeClass("way-up");
 		$("#main").addClass("way-up");
@@ -243,10 +233,4 @@
 		$("#splash").addClass("way-up");
 	}
 	if (window.location.hash == "#!blog") blog();
-	$(document).ready(function () {
-	    squareHeights();
-	    $(window).resize(function() {
-	        squareHeights();
-	    });
-	});
 </script>

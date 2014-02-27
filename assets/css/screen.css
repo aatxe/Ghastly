@@ -90,7 +90,28 @@
 }
 
 .section-head {
-    margin-top: -4%;
+    margin-top: -2em;
+}
+
+@media (min-width: 768px) {
+    .square-row {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+
+    .col-sm-4 {
+        flex: 1;
+        display: flex;
+        flex-flow: column nowrap;
+    }
+    
+    .square {
+        flex: 1;
+    }
+    
+    .section-head {
+        margin-top: -4em;
+    }
 }
 
 #moreme .section-head, #backtome .section-head {
