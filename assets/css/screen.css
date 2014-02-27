@@ -114,18 +114,38 @@
         -webkit-flex-flow: column nowrap;
         -moz-flex-flow: column nowrap;
     }
-    
+
     .square {
         flex: 1;
         -webkit-flex: 1;
         -moz-flex: 1;
         overflow: hidden;
     }
-    
+
     .section-head {
         margin-top: -4em;
     }
 }
+
+/* IE CSS hacks. */
+@media screen\0 {
+    .square-row {
+        display: inherit;
+        flex-flow: none;
+    }
+
+    .col-sm-4 {
+        display: inherit;
+        flex-flow: none;
+    }
+
+    .square {
+        display: inherit;
+        flex-flow: none;
+        overflow: hidden;
+    }
+}
+
 
 #moreme .section-head, #backtome .section-head {
     margin-top: -0.25em;
@@ -176,7 +196,7 @@
     margin-left: 3px;
 }
 
-/* 
+/*
  * Post Formatting
  */
 
