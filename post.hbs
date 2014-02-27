@@ -17,25 +17,29 @@
 			var c = cs[Math.floor(Math.random() * cs.length)];
 			$("#post").css("background-color", c);
 		</script>
-        <header class="post-header">
-            <div class="post-meta">
-				<time class="meta pull-left" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
-				<span class="meta-container pull-right">
-					{{#foreach tags}}
-					<span class="meta">{{name}}</span>
-					{{/foreach}}
-				</span>
+		<section class="row">
+			<div class="col-sm-12">
+        		<header class="post-header">
+            		<div class="post-meta">
+						<time class="meta pull-left" datetime="{{date format='YYYY-MM-DD'}}">{{date format="DD MMM YYYY"}}</time>
+						<span class="meta-container pull-right">
+							{{#foreach tags}}
+								<span class="meta">{{name}}</span>
+							{{/foreach}}
+						</span>
+					</div>
+					<div class="clearfix"></div>
+            		<h2 class="post-title square">
+						<a class="pull-left" href="{{url}}">{{{title}}}</a>
+						<span class="pull-right">By {{author}}</span>
+						<div class="clearfix"></div>
+					</h2>
+       		 	</header>
+				<section class="post-content">
+					{{content}}
+				</section>
 			</div>
-			<div class="clearfix"></div>
-            <h2 class="post-title square">
-				<a class="pull-left" href="{{url}}">{{{title}}}</a>
-				<span class="pull-right">By {{author}}</span>
-				<div class="clearfix"></div>
-			</h2>
-        </header>
-        <section class="post-content">
-        	{{content}}
-        </section>
+		</section>
 	</article>
 	{{/post}}
 	<section id="backtome" class="jumbotron container-fluid">
