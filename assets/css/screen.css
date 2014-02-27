@@ -29,7 +29,6 @@
 
 #whoami .square {
     color: #e74c3c;
-    height: 22em;
 }
 
 #whatdoithink {
@@ -38,7 +37,6 @@
 
 #whatdoithink .square {
     color: #2ecc71;
-    height: 25em;
 }
 
 #whatdoido {
@@ -47,7 +45,6 @@
 
 #whatdoido .square {
     color: #3498db;
-    height: 24em;
 }
 
 #cryptocoins {
@@ -56,7 +53,6 @@
 
 #cryptocoins .square {
     color: #e67e22;
-    height: 354px;
 }
 
 #moreme {
@@ -69,7 +65,7 @@
 
 .square {
     position: relative;
-    margin: 1em 0;
+    margin: 0.5em 0;
     background: white;
     color: #2c3e50;
     padding: 1em;
