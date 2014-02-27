@@ -135,6 +135,10 @@
 
 
 @media (max-width: 987px) and (min-width: 768px) {
+    .qr {
+        width: 160px;
+    }
+
     .addr {
         font-size: 8px;
     }
