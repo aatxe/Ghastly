@@ -8,7 +8,7 @@
 }
 
 .way-up {
-    transition: top 1s !important;
+    transition: top 2s !important;
     position: absolute !important;
     top: -2000% !important;
 }
