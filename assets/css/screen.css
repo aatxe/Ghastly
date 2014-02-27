@@ -105,6 +105,16 @@
     color: #ecf0f1;
 }
 
+.qr {
+    height: auto;
+    width: 240px;
+    max-width: 100%;
+}
+
+.addr {
+    overflow-wrap: break-word;
+}
+
 .jumbotron {
     margin-bottom: 0;
 }
