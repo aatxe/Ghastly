@@ -190,6 +190,7 @@
 
 .blog-title, .blog-description {
     margin-top: -0.3em;
+    text-shadow: 2px 2px black;
 }
 
 .blog-description {
