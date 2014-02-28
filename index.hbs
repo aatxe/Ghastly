@@ -245,12 +245,12 @@
 	}
 	if (window.location.hash == "#!me") splash();
 	if (window.location.hash == "#!blog") blog();
-	if ($(".square-row").css("display") !== "flex") {
-		$(document).ready(function () {
+	$(document).ready(function () {
+		if ($(".square-row").css("display") !== "flex") {}
 			squareHeights();
 			$(window).resize(function() {
 				squareHeights();
 			});
-		});
-	}
+		}
+	});
 </script>
