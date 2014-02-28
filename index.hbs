@@ -225,7 +225,7 @@
 
 <script type="text/javascript" src="{{asset "js/utils.js"}}"></script>
 <script type="text/javascript">
-	function squareHeight() {
+	function squareHeights() {
 		$(".who").resetHeights();
 		$(".who").matchHeights();
 		$(".think").resetHeights();
@@ -245,12 +245,12 @@
 	}
 	if (window.location.hash == "#!me") splash();
 	if (window.location.hash == "#!blog") blog();
-	$(document).ready(function () {
-		if ($(".square-row").css("display") !== "flex") {}
+	if ($(".square-row").css("display") !== "flex") {
+		$(document).ready(function () {
 			squareHeights();
 			$(window).resize(function() {
 				squareHeights();
 			});
-		}
-	});
+		});
+	}
 </script>
