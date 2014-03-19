@@ -1,10 +1,13 @@
+html, body, #head {  
+    background: #2c3e50;
+}
+
 #head, #whoami, #whatdoido, #whatdoithink, #moreme, #backtome, .post {
     color: white;
 }
 
 #head {
     height: 800px;
-    background: #2c3e50;
 }
 
 .way-up {
