@@ -1,0 +1,69 @@
+==================================================================
+https://keybase.io/awe
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://aaronweiss.us
+  * I am awe (https://keybase.io/awe) on keybase.
+  * I have a public key with fingerprint 7A04 3D1F BFCA 6148 67DE  3126 A943 BA9F 204C 61BE
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "7a043d1fbfca614867de3126a943ba9f204c61be",
+            "host": "keybase.io",
+            "key_id": "A943BA9F204C61BE",
+            "uid": "92c36ba62f1c352dda0a6fab4cb7e200",
+            "username": "awe"
+        },
+        "service": {
+            "hostname": "aaronweiss.us",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396063859,
+    "expire_in": 157680000,
+    "prev": "c3377d89fb7c5a3368afd53273196fef746198158d2fdfee3f5f4941d79477bb",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v1
+
+owGbwMvMwMTIZM4cO/uD1SPG0wfeJjEEm9kVVysl5adUKllVK2Wngqm0zLz01KKC
+osy8EiUrJfNEAxPjFMO0pLTkRDNDEwsz85RUY0Mjs0RLE+OkRMs0IwOTZDPDpFQl
+HaWM/GKQDqAxSYnFqXqZ+UAxICc+MwUo6ghU7+Ro6QZU72xm6OQKlCsFS1gaJRub
+JSWaGaUZJhubGqWkJBokmqUlJpkkJ5mnGhkYgBQWpxblJeamAlUnlqcq1eooAQXK
+MpNTQc4F2QqTTCzKzytPzSwu1istBuorKMovyU/OzwFKZZSUFFiBdJZUFoCUlqcm
+xUMNiU/KzEsB+hmooSy1qDgzP0/JyhCoMrkkE2SqobGlmYGZsYWppY5SakVBZlFq
+fCZIham5mYUBEICsSS0DGplsbGxunmJhmZZknmyaaGxsZpGYlmJqbGRubGhplpaa
+Zm5iZmhpYWhqkWKUlpKWmmqcZppmYmlimGJuaWJunpSkBPJWYV6+khXQppLEdKCR
+xZnpeYklpUVAP3cyybAwMDIxsLEygWKNgYtTABaXj7L4/1lPOjyLObFr62Ufw69X
+ltnPXrH6rHRs6+ZQvkXLFoRuq/1cGBb5nE10z4cWjsepqufYI1+eT/+55Nnnzl8d
+z1OKWE893jFr89mX/keyH1Vwyp4vCN28iC+1yqKmrH9J7Rsb57WnNvlYv9n9+Jni
+a57JbmLb1qy62t11chW3q9AdY+2zy+axzHHpOnrsSOzPwGeb4u2u+BbvMlGoq9D+
+dv3oxP4tnTvNL/NKvpJSZQ+/tETygjpvfZfYVd8FHKLpi3YdPFNn+XzR4tdTfxq8
+mM4xzauKr+7nn8DIpYoC/IISwgpsJtcO/L0UcVJBd4L9vaq46atOcHstXrmk63Hd
+G2vbEn2vzvvPGCvq5xtZaHxs0n63k9H7+cy1vHndFUn58itM9qwWMVTbtvOcu8p1
+geLYlcfi9wVmvNZlD/i9Vu/MGnbZYv8VjgWHImolEu/LfzH5LBGnETFVvt/gocOM
+vfbbGGfuPvlTUaZsw0ypnGJ3th+3HJ04vbcvt6rbphPbdKHamu9lqkrj24vSpisM
+337v6S7bITA599E9732hLRc3yrgsOlOUK3nmvYe8oHL+2wr5Gc8/eJ24N1nkUh6/
+h+AThc9ip/sk5CaVXf/Ra/CB+0uYw7IjZhvE+t3tYx2uVvsua/N2qGOOsftzKN1w
+kaxlRkKO55nOBbyfsjdWXV6z71xt/4rz3xM2cOhsn8vpPvHJmsYJ7Mm68U+zVAA=
+=ZltM
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/awe
+
+==================================================================

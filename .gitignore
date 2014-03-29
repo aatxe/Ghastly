@@ -1,6 +1,8 @@
 *.*
 !.gitignore
+!.well-known
 !*.md
+!*.txt
 !*.js
 !*.json
 !*.css
