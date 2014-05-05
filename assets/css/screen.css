@@ -283,10 +283,6 @@ html, body, #head {
     padding: 0.1em;
 }
 
-.post-content p {
-  text-indent: 0.7em;
-}
-
 .post-content p, .square p, .post-excerpt {
     text-align: justify;
 }
