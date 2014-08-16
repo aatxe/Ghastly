@@ -164,7 +164,8 @@ html, body, #head {
 
 .qr {
     height: auto;
-    width: 240px;
+    width: 220px;
+    margin: 0.5em;
     max-width: 100%;
 }
 
