@@ -261,6 +261,10 @@ html, body, #head {
     color: white;
 }
 
+.post-template .blog-info {
+    padding-left: 15px;
+}
+
 .post-content {
     padding: 0 5%;
 }
